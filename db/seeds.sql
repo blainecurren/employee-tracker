@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 INSERT INTO department (name)
 VALUES 
 ('IT'),
@@ -27,3 +28,13 @@ VALUES
 ('Ana', 'Sanchez', 5, 5),
 ('Lewis', 'Allen', 7, null),
 ('Katherine', 'Green', 8, 7);
+=======
+INSERT INTO department(department_name)
+VALUES("Engineering"), ("Sales"), ("Finance"), ("Legal"), ("Marketing");
+
+INSERT INTO role(title, salary, department_id)
+VALUES("Engineer", 70000, 1), ("Senior Engineer", 100000, 1), ("CFO", 250000, 3);
+
+INSERT INTO employee(first_name, last_name, role_id, manager_id)
+VALUES ('Brian', 'Smith', 1, 2), ("John", "Doe", 1, null), ("Joe", "Davis", 1,2), ('David' 'Jackson', 2, 2), ("Yolo", 'Yolo', 4, null);
+>>>>>>> 3c6dc659456a69877d680e489cc9541b455fabfc
