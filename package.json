@@ -19,12 +19,6 @@
   },
   "homepage": "https://github.com/blainecurren/employee-tracker#readme",
   "dependencies": {
-<<<<<<< HEAD
-    "console.table": "^0.10.0",
-    "dotenv": "^8.2.0",
-    "inquirer": "^7.1.0",
-    "mysql2": "^2.1.0"
-=======
     "chalk": "^4.1.2",
     "console.table": "^0.10.0",
     "dotenv": "^10.0.0",
@@ -35,6 +29,5 @@
     "nodemon": "^2.0.13",
     "sequelize": "^6.6.5",
     "validator": "^13.6.0"
->>>>>>> 3c6dc659456a69877d680e489cc9541b455fabfc
   }
 }
